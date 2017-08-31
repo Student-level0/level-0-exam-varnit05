@@ -7,13 +7,42 @@ public class CodingExercise1 {
 
     public static void main(String[] args) {
    	 // 3. ask the user what color they would like the Robot to draw
-
+      	String color = JOptionPane.showInputDialog("what color would you like the robot to draw");
    	 // 4. use an if/else statement to set the pen color that the user requested (minimum of 2 colors)
-
+      	 if (color.equalsIgnoreCase("red"))  {
+      	  system.out.println();
+			
+		}	
+		
+    		
+    		
    	 // 2. set the pen width to 10
-
+    		
    	 // 1. make the Robot draw a shape
+   	 	Robot Dave = new Robot();
+   	 	Dave.penDown();
+   	 	Dave.setSpeed(10);
+   	 	Dave.move(150);
+   	 	Dave.turn(90);
+   	 	Dave.move(150);
+	 	Dave.turn(90);
+	 	Dave.move(150);
+		Dave.turn(90);
+	 	Dave.move(150);
+	 	
+   	 	
+   	 	Dave.setPenWidth(10);
+    
+   	
    	 
+   	 			{
+		
+	}
+ 
+    
+    
     }
+    
 
 }
+å

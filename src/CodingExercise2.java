@@ -10,8 +10,20 @@ import javax.swing.JOptionPane;
  **/
 
 public class CodingExercise2 {
+public static void main(String[] args) {
 
+	String age = JOptionPane.showInputDialog("How old are you?");
+	Integer.parseInt(age);
+
+	JOptionPane.showMessageDialog(null, "You were born in" + 2017-age);
+	
+	if()
+	
+	
+	
+	
+	
 }
 
-
+}
 
